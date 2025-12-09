@@ -3,32 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Simple Page</title>
-    <!-- Link to the external stylesheet -->
+    <title>Eugene | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
-      <h1>Welcome to My Simple Page</h1>
+      <div class="logo">Eugene</div>
+      <nav>
+        <a href="#work">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#community">COMMUNITY</a>
+        <a href="#resume">RESUME</a>
+      </nav>
     </header>
 
     <main>
-      <h2>Hello, world!</h2>
-      <p>
-        This is a simple HTML page. You can modify it to include your own
-        content, images, and links.
-      </p>
+      <section id="about">
+        <h1>Hi, I'm Eugene.</h1>
+        <p class="description">
+          I'm a Year 2 Information Security student studying at SIT. I'm
+          passionate about cybersecurity, Capture The Flag (CTF) challenges, and
+          learning how exploits and vulnerabilities work.
+        </p>
+      </section>
 
-      <p>
-        Check out my
-        <a href="https://github.com/">GitHub</a>
-        for more projects.
-      </p>
+      <section class="featured" id="work">
+        <h2>Featured Work</h2>
+        <p>Coming soon...</p>
+      </section>
     </main>
 
     <footer>
-      <p>© 2025 MyWebsite. All rights reserved.</p>
+      <div class="footer-text">
+        <p>
+          Are you looking for an undergraduate with an interest in CTF and
+          cybersecurity? A curious student who wants to explore the tools and
+          concepts behind exploits and vulnerabilities? If so, please do get in
+          touch!
+        </p>
+      </div>
+
+      <div class="contact">
+        <p><strong>Contact Me</strong></p>
+        <a href="mailto:eugene@example.com">eugene@example.com</a>
+        <a href="https://linkedin.com/in/eugene" target="_blank">LinkedIn</a>
+        <a href="https://github.com/eugene" target="_blank">GitHub</a>
+      </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
